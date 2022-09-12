@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#a Bash script that loops from 1 to 10 and:
+
+for fileName in *
+do 
+	echo "$fileName" | cut --delimiter="-" -f 2
+done
