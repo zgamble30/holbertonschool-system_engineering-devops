@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #a Bash script that loops from 1 to 10 and:
 
-file ="school"
-if [ -e "$file"]
+file="school"
+if [ -e "$file" ]
 then
 	echo "school file exists"
 	if [ -s "$file" ]
