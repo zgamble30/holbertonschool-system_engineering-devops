@@ -1,0 +1,7 @@
+Host 172.17.0.7
+    PasswordAuthentication no
+    IdentityFile ~/.ssh/holberton
+    Port 22
+    SendEnv LANG LC_*
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
