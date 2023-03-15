@@ -1,4 +1,4 @@
-Host 172.17.0.7
+Host 13.38.138.138
     PasswordAuthentication no
     IdentityFile ~/.ssh/holberton
     Port 22
